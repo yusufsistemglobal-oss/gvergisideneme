@@ -2,14 +2,79 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>ElevenLabs Agent Widget Demo</title>
+  <title>Sistem Global Vergi Asistanı</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #f15a24; /* System Global turuncu */
+      color: white;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .highlight {
+      margin: 3rem auto;
+      max-width: 700px;
+      padding: 2rem;
+      border: 2px solid #f15a24;
+      border-radius: 10px;
+      background-color: #fff3eb;
+    }
+
+    .highlight h2 {
+      color: #f15a24;
+      margin-bottom: 1rem;
+    }
+
+    .widget-area {
+      margin: 3rem 0;
+    }
+
+    footer {
+      background-color: #f15a24;
+      color: white;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>ElevenLabs Agent Widget Test</h1>
-  <p>Aşağıda widget yüklenecek 👇</p>
+  <header>
+    <h1>Sistem Global Gelir Vergisi Asistanı</h1>
+    <p>Sesli asistanınız hazır!</p>
+  </header>
 
-  <!-- ElevenLabs Agent Widget -->
-  <elevenlabs-convai agent-id="agent_5601k31jcv3ffqxbyj4dvazjk0af"></elevenlabs-convai>
-  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+  <section class="highlight">
+    <h2>Sesli Asistan Deneyimi</h2>
+    <p>Yapay zekâ destekli asistanımızla konuşarak sorular sorun, yanıtları anında alın. 
+    Sistem Global’in yenilikçi yaklaşımıyla ses teknolojisini deneyimleyin.</p>
+  </section>
+
+  <div class="widget-area">
+    <!-- ElevenLabs Agent Widget -->
+    <elevenlabs-convai agent-id="agent_5601k31jcv3ffqxbyj4dvazjk0af"></elevenlabs-convai>
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+  </div>
+
+  <footer>
+    © 2025 Sistem Global — Sesli Asistan Deneme
+  </footer>
 </body>
 </html>
